@@ -1,0 +1,4 @@
+Utku G: 100, 95, 97
+Mert D: 61, 57, 69
+Mert A: 55, 41, 16
+Denizhan T: 80, 70, 70
