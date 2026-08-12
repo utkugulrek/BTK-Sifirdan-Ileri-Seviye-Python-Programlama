@@ -1,0 +1,20 @@
+# Bağımlılıklar ve kütüphaneler
+node_modules/
+venv/
+.venv/
+
+# Geçici ve derlenmiş dosyalar
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# Şifreler ve ortam değişkenleri
+.env
+.env.local
+
+# Editör ve İşletim Sistemi dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
