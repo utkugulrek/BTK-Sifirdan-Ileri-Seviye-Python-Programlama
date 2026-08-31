@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_result_hobbies">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>270</y>
+      <width>161</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hobbies</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_get_hobbies">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>82</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get Hobbies</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="group_hobbies">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Hobbies</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>77</width>
+       <height>86</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QCheckBox" name="cb_movies">
+        <property name="text">
+         <string>Movies</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cb_reading">
+        <property name="text">
+         <string>Reading</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cb_sports">
+        <property name="text">
+         <string>Sports</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="group_lectures">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>161</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Lectures</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>107</width>
+       <height>86</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="cb_web_design">
+        <property name="text">
+         <string>Web Design</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cb_programming">
+        <property name="text">
+         <string>Programming</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cb_math">
+        <property name="text">
+         <string>Math</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_get_lectures">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>240</y>
+      <width>82</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get Lectures</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_result_lectures">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>270</y>
+      <width>161</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lectures</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
