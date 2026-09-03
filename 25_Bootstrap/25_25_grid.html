@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Grid Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container my-4">
+        <h2>Equal Columns</h2>
+        <div class="row">
+            <div class="col border">Column 16</div>
+        </div>
+        <div class="row my-2">
+            <div class="col border">Column 8</div>
+            <div class="col border">Column 8</div>
+        </div>
+        <div class="row my-2">
+            <div class="col border">Column 4</div>
+            <div class="col border">Column 4</div>
+            <div class="col border">Column 4</div>
+        </div>
+        <div class="row my-2">
+            <div class="col border">Column 2</div>
+            <div class="col border">Column 2</div>
+            <div class="col border">Column 2</div>
+            <div class="col border">Column 2</div>
+        </div>
+            <div class="row my-2">
+            <div class="col border">Column 1</div>
+            <div class="col border">Column 1</div>
+            <div class="col border">Column 1</div>
+            <div class="col border">Column 1</div>
+            <div class="col border">Column 1</div>
+            <div class="col border">Column 1</div>
+        </div>
+
+        <h2>Non-Equal Columns</h2>
+        <div class="row my-2">
+            <div class="col-2 border">2 length </div>
+            <div class="col-10 border">10 length</div>
+        </div>
+        <div class="row my-2">
+            <div class="col-5 border">5 length </div>
+            <div class="col-4 border">4 length</div>
+        </div>
+        <div class="row my-2">
+            <div class="col-5 border me-auto">5 length </div>
+            <div class="col-4 border">4 length</div>
+        </div>
+
+        <h2>Sort Columns</h2>
+        <div class="row my-2">
+            <div class="col-3 border order-3">3 length </div>
+            <div class="col-4 border order-1">4 length</div>
+            <div class="col border order-2">rest</div>
+        </div>
+
+        <h2>Nested Rows</h2>
+        <div class="row my-2">
+            <div class="col-4 border">4 length </div>
+            <div class="col-8 border bg-success">8 length
+                <div class="row">
+                    <div class="col bg-primary">6 length</div>
+                    <div class="col bg-warning">6 length</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

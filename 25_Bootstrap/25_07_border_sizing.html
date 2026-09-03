@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Borders & Sizing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .d-inline-block {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="p-5">
+
+    <!-- 1. YÖNTEM: Belirli Kenarlara Çizgi Ekleme -->
+    <div class="bg-light mt-2 p-4"></div>
+    <div class="bg-light mt-2 p-4 border"></div>
+    <div class="bg-light mt-2 p-4 border-top"></div>
+    <div class="bg-light mt-2 p-4 border-end"></div>
+    <div class="bg-light mt-2 p-4 border-start"></div>
+    <div class="bg-light mt-2 p-4 border-bottom"></div>
+
+    <hr class="my-4">
+
+    <!-- 2. YÖNTEM: Çizgi Çıkarma / Sıfırlama (0 Kullanımı) -->
+    <div class="bg-light mt-2 p-4 border"></div>
+    <div class="bg-light mt-2 p-4 border border-0"></div>
+    <div class="bg-light mt-2 p-4 border border-top-0"></div>
+    <div class="bg-light mt-2 p-4 border border-bottom-0"></div>
+    <div class="bg-light mt-2 p-4 border border-start-0"></div>
+    <div class="bg-light mt-2 p-4 border border-end-0"></div>
+
+    <hr class="my-4">
+
+    <!-- Çizgi Renklendirme -->
+    <div class="bg-light mt-2 p-4 border border-primary">Primary Border</div>
+    <div class="bg-light mt-2 p-4 border border-secondary">Secondary Border</div>
+    <div class="bg-light mt-2 p-4 border border-danger">Danger Border</div>
+
+    <hr class="my-4">
+
+    <!-- Köşe Yuvarlama (Rounded) -->
+    <div class="bg-light mt-2 p-4 border border-primary rounded">Primary Rounded Border</div>
+    <div class="bg-light mt-2 p-4 border border-primary rounded-top">Primary Top Rounded Border</div>
+    <div class="bg-light mt-2 p-4 border border-primary rounded-bottom">Primary Bottom Rounded Border</div>
+
+    <hr class="my-4">
+
+    <!-- Genişlik Sınıfları (Width: w-*) -->
+    <div class="bg-success mt-2 p-4"></div>
+    <div class="bg-success mt-2 p-4 w-25"></div>
+    <div class="bg-success mt-2 p-4 w-50"></div>
+    <div class="bg-success mt-2 p-4 w-75"></div>
+    <div class="bg-success mt-2 p-4 w-100"></div>
+
+    <hr class="my-4">
+
+    <!-- Yükseklik Sınıfları (Height: h-*) -->
+    <div style="height: 200px;" class="bg-warning">
+        <div class="bg-primary p-4 d-inline-block h-25"></div>
+        <div class="bg-primary p-4 d-inline-block h-50"></div>
+        <div class="bg-primary p-4 d-inline-block h-75"></div>
+        <div class="bg-primary p-4 d-inline-block h-100"></div>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Gölge Sınıfları (Shadows) -->
+    <div class="shadow bg-light mt-2 p-4 border">shadow</div>
+    <div class="shadow-sm bg-light mt-2 p-4 border">shadow-sm</div>
+    <div class="shadow-lg bg-light mt-2 p-4 border">shadow-lg</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

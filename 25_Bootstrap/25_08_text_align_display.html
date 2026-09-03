@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Text Align & Display</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Metin Hizalama (Text Alignment) -->
+    <p class="text-center">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque necessitatibus debitis obcaecati quibusdam officiis perferendis nobis, totam hic corrupti quae laborum, expedita laboriosam quam voluptatum consequatur iusto architecto. Blanditiis, repellendus.
+    </p>
+
+    <p class="text-start">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque necessitatibus debitis obcaecati quibusdam officiis perferendis nobis, totam hic corrupti quae laborum, expedita laboriosam quam voluptatum consequatur iusto architecto. Blanditiis, repellendus.
+    </p>
+
+    <p class="text-end">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque necessitatibus debitis obcaecati quibusdam officiis perferendis nobis, totam hic corrupti quae laborum, expedita laboriosam quam voluptatum consequatur iusto architecto. Blanditiis, repellendus.
+    </p>
+
+    <hr class="my-4">
+
+    <!-- Blockquote (Alıntı) Kullanımı - Bootstrap 5 Standart Yapısı -->
+    <figure>
+        <blockquote class="blockquote">
+            <p>Bazı çiçekler bazı topraklarda olmuyor.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">Aykut Kocaman</figcaption>
+    </figure>
+
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">Utku Gülrek</figcaption>
+    </figure>
+
+    <hr class="my-4">
+
+    <!-- d-block: Inline olan <span> etiketini blok elemana dönüştürür (Tam genişlik alır ve margin kabul eder) -->
+    <span class="d-block bg-danger mb-2">d block çevrilir satırı kaplar</span>
+    <span class="d-block bg-danger">artık mb verilebiliyor çünkü inline değil</span>
+
+    <hr class="my-4">
+
+    <!-- d-inline: Block olan <div> etiketini inline yapar (İçerik kadar yer kaplar, yan yana dizilir) -->
+    <div class="d-inline bg-info">d-inline dönüştürülür ve içerik kadar yer kaplar</div>
+    <div class="d-inline bg-info">d-inline yan yana dizilirler</div>
+
+    <hr class="my-4">
+
+    <!-- d-inline-block: Hem yan yana dizilir hem de width/height/padding/margin değerlerini eksiksiz alır -->
+    <div class="d-inline-block bg-primary p-3">
+        <h3>Product Name</h3>
+        Description
+    </div>
+
+    <div class="d-inline-block bg-primary p-3">
+        <h3>Product Name</h3>
+        Description
+    </div>
+
+    <hr class="my-4">
+
+    <!-- d-none: Elemanı DOM'dan gizler, ekranda HİÇ YER KAPLAMAZ -->
+    <div class="d-none bg-info">d-none | Gizlenir ve yer kaplamaz</div>
+
+    <hr class="my-4">
+
+    <!-- invisible: Elemanı görünmez yapar ama kapladığı BOŞ ALAN EKRANDA KALIR -->
+    <div class="invisible bg-info">invisible | Görünmez ama yerini korur</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Butonlar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 70px;
+        }
+        .margin-right {
+
+            margin-right: 10px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Standart Dolgulu Butonlar (Düz Renkler) -->
+<button type="button" class="btn btn-primary">Primary Button</button>
+    <button type="button" class="btn btn-danger">Danger Button</button>
+    <button type="button" class="btn btn-secondary">Secondary Button</button>
+    <button type="button" class="btn btn-success">Success Button</button>
+    <button type="button" class="btn btn-warning">Warning Button</button>
+    <button type="button" class="btn btn-info">Info Button</button>
+    <button type="button" class="btn btn-light">Light Button</button>
+    <button type="button" class="btn btn-dark">Dark Button</button>
+    <button type="button" class="btn btn-link">Link Button</button>
+
+    <hr class="my-4">
+
+    <!-- Link Etiketine (<a>) Buton Görünümü Verme -->
+    <a href="#" class="btn btn-primary">Primary a</a>
+
+    <hr class="my-4">
+
+    <!-- Outline (Çerçeveli / İçi Şeffaf) Butonlar -->
+    <!-- Hover yapıldığında rengini dolguya dönüştürür -->
+    <button class="btn btn-outline-primary" type="button">Primary Button</button>
+    <button class="btn btn-outline-danger" type="button">Danger Button</button>
+    <button class="btn btn-outline-secondary" type="button">Secondary Button</button>
+    <button class="btn btn-outline-success" type="button">Success Button</button>
+    <button class="btn btn-outline-warning" type="button">Warning Button</button>
+    <button class="btn btn-outline-info" type="button">Info Button</button>
+    <button class="btn btn-outline-light" type="button">Light Button</button>
+    <button class="btn btn-outline-dark" type="button">Dark Button</button>
+    <button class="btn btn-outline-link" type="button">link</button>
+    
+    <hr class="my-4">
+
+    <!-- Buton Boyutlandırma (Boyut Sınıfları) -->
+    <button type="button" class="btn btn-success btn-lg">Large Success Button</button>
+    <button type="button" class="btn btn-success btn-sm">Small Success Button</button>
+
+    <hr class="my-4">
+
+    <!-- Block Buton Yapısı (Bootstrap 5 Yöntemi) -->
+    <div class="d-grid gap-2">
+        <button class="btn btn-danger" type="button">Block Button</button>
+        <button type="button" class="btn btn-outline-secondary">Block Button 2</button>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Aktif ve Pasif (Disabled) Butonlar -->
+    <a href="#" class="btn btn-primary btn-lg active">Active Button</a>
+    <a href="#" class="btn btn-danger btn-lg active">Active Button 2</a>
+
+    <button type="button" class="btn btn-success" disabled>Disabled Button</button>
+
+    <hr class="my-4">
+
+    <!-- Yatay Buton Grubu (Button Group) -->
+    <div class="btn-group">
+        <button  type="button" class="btn btn-primary">Primary Button</button>
+        <button  type="button" class="btn btn-danger">Danger Button</button>
+        <button  type="button" class="btn btn-secondary">Secondary Button</button>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Dikey Buton Grubu (Vertical Button Group) -->
+    <div class="btn-group-vertical">
+        <button  type="button" class="btn btn-primary">Primary Button</button>
+        <button  type="button" class="btn btn-danger">Danger Button</button>
+        <button  type="button" class="btn btn-secondary">Secondary Button</button>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Araç Çubuğu (Button Toolbar) -->
+    <div class="btn-toolbar" role="toolbar">
+        <div class="btn-group margin-right" role="group">
+            <button  type="button" class="btn btn-secondary">1</button>
+            <button  type="button" class="btn btn-secondary">2</button>
+            <button  type="button" class="btn btn-secondary">3</button>
+            <button  type="button" class="btn btn-secondary">4</button>
+            <button  type="button" class="btn btn-secondary">5</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button  type="button" class="btn btn-secondary">6</button>
+            <button  type="button" class="btn btn-secondary">7</button>
+            <button  type="button" class="btn btn-secondary">8</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

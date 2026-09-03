@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Breakpoints</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        /*extra small devices - xs kalktı*/
+            body {
+                background-color: gray;
+            }
+        /*small devices sm*/
+        @media (min-width: 576px){
+            body {
+                background-color: red;
+            }
+        }
+        /*medium devices md*/
+        @media (min-width: 768px){
+            body {
+                background-color: blue;
+            }
+        }
+        /*large devices lg*/
+        @media (min-width: 992px){
+            body {
+                background-color: green;
+            }
+        }
+        /*extra large devices xl*/
+        @media (min-width: 1200px){
+            body {
+                background-color: yellow;
+            }
+        }
+        /*extra extra large devices xxl BS5 ile yeni*/
+        @media (min-width: 1400px){
+            body {
+                background-color: black;
+            }
+        }
+    </style>
+
+</head>
+<body class="w-75 mx-auto my-4">
+
+    <div class="container bg-info" style="height: 100px;"></div>
+
+    <div class="container-fluid bg-secondary mt-4" style="height: 100px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

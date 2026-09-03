@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Tooltips | Without JS Prop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="w-75 mx-auto my-4">
+
+    <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" title="tooltip text">
+        Hover over me
+    </a>
+
+    <hr class="my-4">
+
+    <button type="button" class="btn btn-success" data-bs-toggle="tooltip" title="<h3>Header</h3><br><p>Tooltip text</p>" data-bs-html="true">
+        Tooltip with HTML
+    </button>
+
+    <p>
+        <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" title="tooltip text" data-bs-placement="top">
+            Hover over me top
+        </a>
+        <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" title="tooltip text" data-bs-placement="right">
+            Hover over me right
+        </a>
+        <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" title="tooltip text" data-bs-placement="left">
+            Hover over me left
+        </a>
+        <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" title="tooltip text" data-bs-placement="bottom">
+            Hover over me bottom
+        </a>
+        <a href="#" class="btn btn-primary" data-bs-toggle="tooltip" title="tooltip text" data-bs-placement="start">
+            Hover over me start
+        </a>
+    </p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+</script>
+</body>
+</html>
